@@ -1,0 +1,30 @@
+{
+    "name": "instapro/banking-exercise",
+    "description": "",
+    "type": "Project",
+    "autoload": {
+        "psr-4": {
+            "Instapro\\Bank\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Instapro\\Bank\\Test\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4",
+        "friendsofphp/php-cs-fixer": "^2.13"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeroen van den Heuve;",
+            "email": "jeroen.van.den.heuvel@werkspot.nl"
+        }
+    ],
+    "minimum-stability": "stable"
+}
